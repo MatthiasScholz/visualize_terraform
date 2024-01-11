@@ -1,0 +1,9 @@
+---
+version: "3.9"
+services:
+  rover:
+    image: im2nguyen/rover
+    ports:
+      - "9000:9000"
+    volumes:
+      - $TERRAFORM_DIR:/src
